@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>NFT Marketplace</h1>
+        <button id="connectWallet">Connect Wallet</button>
+    </header>
+
+    <section class="container">
+        <div class="card">
+            <h2>Create NFT</h2>
+            <input type="text" id="metadata" placeholder="Metadata URI">
+            <input type="number" id="price" placeholder="Price (ETH)">
+            <button onclick="createNFT()">Mint NFT</button>
+        </div>
+
+        <div class="card">
+            <h2>List NFT</h2>
+            <input type="number" id="listId" placeholder="NFT ID">
+            <input type="number" id="listPrice" placeholder="Price (ETH)">
+            <button onclick="listNFT()">List for Sale</button>
+        </div>
+
+        <div class="card">
+            <h2>Buy NFT</h2>
+            <input type="number" id="buyId" placeholder="NFT ID">
+            <button onclick="buyNFT()">Buy Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NFT Marketplace</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

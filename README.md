@@ -22,3 +22,5 @@ Our vision is to build a decentralized and transparent NFT marketplace that empo
 
 ## Contract Address :-  0x70664e0d9066c90b871700f6e29c0e4065ba9aa4
 ![image](https://github.com/user-attachments/assets/1a32ab0b-e59f-4951-9f19-15387a1c38c1)
+## Frontend 
+![image](https://github.com/user-attachments/assets/5ba0861a-1d6b-4ba8-a230-16ebf0112127)
